@@ -1,0 +1,149 @@
+.
+├── .git
+│   ├── FETCH_HEAD
+│   ├── HEAD
+│   ├── branches
+│   ├── config
+│   ├── description
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── push-to-checkout.sample
+│   │   ├── sendemail-validate.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   └── exclude
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   │       ├── heads
+│   │       │   └── main
+│   │       └── remotes
+│   │           └── origin
+│   │               └── HEAD
+│   ├── objects
+│   │   ├── info
+│   │   └── pack
+│   │       ├── pack-ce8864b322a37507adf9536bdb178191500b365d.idx
+│   │       ├── pack-ce8864b322a37507adf9536bdb178191500b365d.pack
+│   │       └── pack-ce8864b322a37507adf9536bdb178191500b365d.rev
+│   ├── packed-refs
+│   └── refs
+│       ├── heads
+│       │   └── main
+│       ├── remotes
+│       │   └── origin
+│       │       └── HEAD
+│       └── tags
+├── PQW3L
+│   ├── backend
+│   │   ├── src
+│   │   │   ├── auth
+│   │   │   │   ├── did_verification.rs
+│   │   │   │   ├── login.rs
+│   │   │   │   ├── session.rs
+│   │   │   │   ├── wallet_bind.rs
+│   │   │   │   └── web3_auth.rs
+│   │   │   ├── identity
+│   │   │   │   ├── did.rs
+│   │   │   │   ├── retrieve_did.rs
+│   │   │   │   ├── revoke_did.rs
+│   │   │   │   └── store_did.rs
+│   │   │   ├── main.rs
+│   │   │   ├── pqcrypto
+│   │   │   │   ├── dilithium.rs
+│   │   │   │   ├── encryption.rs
+│   │   │   │   ├── kyber.rs
+│   │   │   │   └── otk.rs
+│   │   │   ├── security
+│   │   │   │   ├── audit.rs
+│   │   │   │   ├── logging.rs
+│   │   │   │   └── rate_limiting.rs
+│   │   │   ├── sessions
+│   │   │   │   ├── revocation.rs
+│   │   │   │   ├── session_manager.rs
+│   │   │   │   └── storage.rs
+│   │   │   └── wasm
+│   │   │       ├── api.rs
+│   │   │       ├── bindings.rs
+│   │   │       ├── lib.rs
+│   │   │       └── wasm_utils.rs
+│   │   └── tests
+│   ├── config
+│   │   ├── config.json
+│   │   ├── env.example
+│   │   └── network.ts
+│   ├── contracts
+│   │   ├── Cargo.toml
+│   │   ├── ethereum
+│   │   │   ├── DIDRevocation.sol
+│   │   │   ├── DIDVerifier.sol
+│   │   │   ├── IdentityVerifier.sol
+│   │   │   └── KyberAuth.sol
+│   │   ├── hardhat.config.ts
+│   │   └── substrate
+│   │       ├── identity.rs
+│   │       └── storage.rs
+│   ├── docs
+│   │   ├── api-docs.md
+│   │   ├── architecture.md
+│   │   ├── pqc-research.md
+│   │   └── web3-login.md
+│   ├── frontend
+│   │   ├── config
+│   │   ├── package.json
+│   │   ├── public
+│   │   ├── src
+│   │   │   ├── App.tsx
+│   │   │   ├── auth
+│   │   │   │   ├── tokenStorage.ts
+│   │   │   │   └── useSession.ts
+│   │   │   ├── components
+│   │   │   ├── index.tsx
+│   │   │   ├── pages
+│   │   │   ├── security
+│   │   │   │   └── sessionMonitoring.ts
+│   │   │   ├── utils
+│   │   │   ├── wasm
+│   │   │   │   ├── dilithium.ts
+│   │   │   │   └── kyber.ts
+│   │   │   └── web
+│   │   │       ├── connectWallet.ts
+│   │   │       ├── useWeb3.ts
+│   │   │       └── verifySignature.ts
+│   │   ├── styles
+│   │   ├── types
+│   │   └── vite.config.ts
+│   ├── scripts
+│   │   ├── deploy-backend.sh
+│   │   ├── deploy.sh
+│   │   ├── lint-check.sh
+│   │   ├── start-dev.sh
+│   │   ├── test-wasm.sh
+│   │   └── upload-ipfs.sh
+│   ├── storage
+│   │   ├── identity_proofs.json
+│   │   ├── metadata.json
+│   │   ├── session_keys.json
+│   │   └── upload.ts
+│   └── tests
+│       ├── backend
+│       │   └── kyber_auth_test.rs
+│       ├── e2e
+│       │   └── full_flow.test.js
+│       └── frontend
+│           └── login.test.ts
+├── README.md
+└── directory-structure.txt
+
+52 directories, 95 files
